@@ -5,7 +5,7 @@ metadata:
   labels:
     app: guestbook
 spec:
-  replicas: 3 # Varias réplicas para balancear carga
+  replicas: 5 # Varias réplicas para balancear carga
   selector:
     matchLabels:
       app: guestbook
